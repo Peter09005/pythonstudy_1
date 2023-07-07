@@ -9,4 +9,3 @@ print(sample(idSet,3))
 
 users = range(1,21) # 1부터 20까지 숫자를 생성 class > range
 users = list(users)
-
