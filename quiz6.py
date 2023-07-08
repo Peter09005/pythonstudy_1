@@ -8,4 +8,4 @@ def std_weight(height,gender):
 gender = input("성별 입력 ")
 height = int(input("키 입력 "))
 
-print("키 {0}cm {1}의 표준 체중은 {2}kg 입니다".format(height,gender,std_weight(height,gender)))
+print("키 {0}cm {1}의 표준 체중은 {2}kg 입니다".format(height,gender,round(std_weight(height,gender)),2))
